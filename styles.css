@@ -1,0 +1,101 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333; /* Dark background for navigation */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff; /* White text color */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #555; /* Darker background on hover or when active */
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+section h2 {
+    color: #4CAF50; /* Green header color */
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50; /* Green footer background */
+    color: #fff; /* White text color */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* GIF styles */
+.hover-video {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Ensure the GIFs resize responsively */
+}
